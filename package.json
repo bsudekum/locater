@@ -1,6 +1,7 @@
 {
   "name": "meattext-realtime",
   "version": "0.0.1",
+  "main": "index.js",
   "description": "Realtime location sharing",
   "main": "index.js",
   "scripts": {
