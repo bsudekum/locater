@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#map {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.register-name {
+	position: absolute;
+	z-index: 100000;
+	top:0;
+	display:none;
+}
+.maki-icon {
+	display: inline-block;
+	height: 24px;
+	margin: 3px 0;
+	vertical-align: top;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.label-select {
+	display: none;
+}
+.new-user {
+	position: absolute;
+	z-index: 100000;
+	text-shadow:0px 0px 1px #1A1A1A;
+}
+.new-user a.button {
+	margin-right: 10px;
+}
+.new-user .username {
+	margin-top: 10px;
+}
+
+.location-icon {
+	background-color: #19a7e2;
+	border-radius: 30px;
+	animation: dotPulse 2000ms 0ms infinite;
+	-moz-animation: dotPulse 2000ms 0ms infinite;
+	-webkit-animation: dotPulse 2000ms 0ms infinite;
+	border: 4px solid white;
+}
+@-webkit-keyframes dotPulse {
+	0% {
+		box-shadow: white 0px 0px 10px 2px, rgba(25, 167, 226, 1) 0px 0px 10px 2px;
+	}
+	100% {
+		box-shadow: white 0px 0px 10px 0px, rgba(25, 167, 226, 0) 0px 0px 0px 30px;
+	}
+}
+
+.leaflet-marker-draggable {
+	display: none!important;
+}
+
+.clear {
+	display: none;
+}
